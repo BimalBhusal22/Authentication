@@ -1,4 +1,4 @@
-// import { useSelector } from "react-redux";
+import { useSelector } from "react-redux";
 
 const UserProfile = () => {
   const userFromStore = useSelector((store) => store.userProfile);
@@ -10,7 +10,7 @@ const UserProfile = () => {
       <h1 className="mt-16 text-center text-[25px]">User Profile</h1>
       <div className=" p-4 rounded-[15px] flex flex-col justify-center items-center border-1 w-[30%] mx-auto mt-10">
         <div>
-          <img src="" className="h-[200px] rounded-[15px]" />
+          <img src="shadowImage.png" className="h-[200px] rounded-[15px] opacity-[0.4]" />
         </div>
         <div className="mt-4">
           <p className="my-2 ">

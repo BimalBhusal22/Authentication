@@ -46,7 +46,7 @@ const EnterPhoneNo = () => {
       <h1 className="text-[25px]">Your Phone Number</h1>
       <form
         onSubmit={handleOnSubmit}
-        className="bg-blue-200 shadow-2xl inline-block w-[30%]  rounded-[15px] my-4 p-8 "
+        className="bg-green-200 shadow-2xl inline-block w-[30%]  rounded-[15px] my-4 p-8 "
       >
         <div className="flex flex-col justify-center content-center">
           <div className="mb-4 ">
@@ -58,7 +58,7 @@ const EnterPhoneNo = () => {
               ref={phoneno}
               type="text"
               name="username"
-              className=" border-1 rounded-[10px] py-2 ps-3 my-1 w-[350px] border-blue-400"
+              className=" border-1 rounded-[10px] py-2 ps-3 my-1 w-[350px] border-green-400"
               placeholder="Enter phone no"
             ></input>
           </div>
@@ -66,7 +66,7 @@ const EnterPhoneNo = () => {
           <div className="m-auto">
             <button
               type="submit"
-              className="bg-blue-500 hover:bg-blue-600 text-white  rounded-[10px] p-3 w-[200px]"
+              className="bg-green-500 hover:bg-green-600 text-white  rounded-[10px] p-3 w-[200px]"
             >
               Send
             </button>
